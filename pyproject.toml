@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastapi-mail"
-version = "0.4.1"
+version = "0.4.2"
 description = "Simple lightweight mail library for FastApi"
 authors = ["Sabuhi Shukurov <sabuhi.shukurov@gmail.com>"]
 license = "MIT"
