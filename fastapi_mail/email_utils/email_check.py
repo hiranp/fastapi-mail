@@ -2,7 +2,7 @@ import inspect
 from abc import ABC, abstractmethod
 from typing import Any, List, Set
 
-import aioredis
+from redis import asyncio as aioredis
 import dns.exception
 import dns.resolver
 import httpx

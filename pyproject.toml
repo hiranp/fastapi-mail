@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "*"
+python = ">=3.8,<3.11"
 fastapi = "*"
 Jinja2 = "*"
 aiosmtplib = "*"
@@ -30,7 +30,7 @@ blinker = "*"
 python-multipart = "*"
 
 [tool.poetry.dev-dependencies]
-aioredis = "*"
+redis = "*"
 fakeredis = "*"
 pytest = "*"
 pytest-asyncio = "*"
